@@ -1,6 +1,4 @@
-
-
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
   margin: 0;
@@ -69,8 +67,6 @@ nav ul li a:hover {
 
 /* END NAVIGATION */
 
-
-
 @media screen and (min-width: 872px) {
   
   .content {
@@ -99,3 +95,5 @@ nav ul li a:hover {
   }
 
 }
+
+
