@@ -1,6 +1,5 @@
-
-
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://www.1001fonts.com/lucien-schoenschriftv-cat-font.html?text=IG&size=26&commercial=true&page=3');
 
 * {
   margin: 0;
@@ -10,12 +9,16 @@
 
 body {
   background-color: #Ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
 }
 
 /* START MENU BAR */
-.content {
+.intro {
   padding: 0 20px;
+}
+
+.toggler{
+    margin-right: -30px;
 }
 
 header {
@@ -31,6 +34,7 @@ header {
   text-decoration: none;
   font-size: 36px;
   font-weight: bold;
+  font-family: 'lucien-schoenschriftv-cat-font';
 }
 
 .toggler {
@@ -69,11 +73,224 @@ nav ul li a:hover {
 
 /* END NAVIGATION */
 
+/* START OF IEVADS */
 
+.top-left {
+    position: absolute;
+    width: 70%;
+    margin-top: -50%;
+    margin-left: 3%;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .containerimg{
+    width: 100%;
+    display: block;
+  }
+
+  .containerimg2{
+    display: none;
+  }
+  
+  .container .btn {
+
+    background-color: rgba(85, 85, 85, 0);
+    color: white;
+    font-size: 16px;
+    padding: 6px 24px;
+    border: 3px solid ;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+.content{
+   padding: 7%;
+}
+
+.verticalLine {
+    height: 18%;
+    border-left: 3px solid #000900;
+}
+
+.verticalLine p {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.verticalLine .firstp{
+    font-weight: bold;
+}
+
+.verticalLine .secondp{
+    font-style: italic;
+}
+
+.dots {
+    width: 20%;
+    margin-left: 70%;
+    margin-bottom: -15%;
+
+}
+
+.qualification{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.qualification p {
+    text-align: center;
+    margin-left: 0;
+}
+
+.qualification h1 {
+    margin-bottom: 15px;
+}
+
+.qualification .btn {
+    background-color: rgba(85, 85, 85, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 13px;
+    margin: 18px;
+    border: 3px solid ;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* END OF IEVADS */
+
+/* START OF KAS IR KOUCiNGS */
+
+
+.defenition{
+    padding-top:100px;
+    padding-right: 7%;
+    padding-left:7%;
+}
+
+.defenition h1{
+    padding-bottom: 10px;
+}
+
+.defenition h1, p{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.boldp {
+    font-weight: bold;
+}
+
+.verticalLine2 {
+    height: 18%;
+    border-left: 3px solid #000900;
+}
+
+.defenition2 {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.defenition2 p{
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.koucings {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* END OF KAS IR KOUCiNGS */
+
+/* START OF PAR MANI*/
+
+
+.ParMani {
+    padding-right: 7%;
+    padding-left:7%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    margin-bottom: 20px;
+    padding-left: 7%;
+    padding-top: 80px;
+}
+.verticalLine3 {
+    height: 18%;
+    border-left: 3px solid #000900;
+}
+
+.readmore{
+  background-color: rgba(85, 85, 85, 0);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 13px;
+  margin: 18px;
+  border: 3px solid ;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+
+}
+.portrait {
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 50%;
+}
+
+.ParMani2 h1 {
+  margin-left: 39px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ParMani2 p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.icon {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.values {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inspiration {
+    margin-top: 70px;
+}
+
+  
+/* END OF PAR MANI*/
 
 @media screen and (min-width: 872px) {
+
+  header {
+     padding-top: 30px;
+     padding-bottom: 30px;
+  }
   
-  .content {
+  .intro {
     padding: 0 50px;
   }
   
@@ -96,6 +313,138 @@ nav ul li a:hover {
   nav ul li {
     display: inline-block;
     padding-right: 20px;
+    font-size: 23px;
   }
 
+  nav ul li a {
+    font-size: 23px;
+    padding-right: 30px;
+    
+  }
+
+/* START OF IEVADS*/
+
+.containerimg{
+  display: none;
 }
+
+.containerimg2 {
+  display: block;
+}
+
+.container p {
+ font-size: 30px;
+}
+
+.dots{
+  width: 150px;
+}
+.content p {
+  font-size: 23px;
+}
+
+.content h1 {
+  font-size: 26px;
+}
+
+/* END OF IEVADS*/
+
+/* START OF KAS IR KOUCiNGS */
+
+.Koucings {
+  display: flex;
+  flex-direction: row;
+  margin-left:100px ;
+  margin-right: 100px;
+}
+
+.Koucings h1{
+  font-size: 26px;
+}
+
+.Koucings p {
+  font-size: 23px;
+}
+
+.verticalLine2 {
+  height: 100%;
+}
+
+.defenition {
+  padding-left: 0;
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.defenition2 {
+  padding-left: 7%;
+  width: 50%;
+}
+
+/* END OF KAS IR KOUCiNGS */
+
+
+
+/* START OF PAR MANI*/
+
+.title{
+  padding-top: 200px;
+}
+
+.ParMani {
+  display: flex;
+  flex-direction: row;
+}
+
+.ParMani p {
+  font-size: 23px;
+}
+
+.verticalLine3 {
+  width: 70%;
+}
+
+.portrait {
+  margin-top: -80px;
+  width: 400px;
+  margin-left: 200px;
+}
+
+.icon {
+  width: 130px;
+}
+
+.ParMani2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin: auto;
+}
+
+.ParMani2 p {
+  font-size: 23px;
+}
+
+.ParMani2 h1{
+  font-size: 26px;
+}
+
+.values{
+  display: flex;
+  flex-direction: row;
+}
+
+.inspiration{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+}
+
+/* END OF PAR MANI*/
+
+
